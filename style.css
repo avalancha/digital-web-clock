@@ -26,8 +26,15 @@ body {
 #digital-web-clock {
   transform: scaleY(2);
   color: #dc143c;
-  font-size: 10rem;
-  line-height: 0;
+  font-size: 4rem;
+  line-height: 1;
+  word-break: break-word;
+}
+
+@media screen and (min-width: 546px) {
+  #digital-web-clock {
+    font-size: 10rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
