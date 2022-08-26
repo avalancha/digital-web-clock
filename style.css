@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body,
+html {
+  font-size: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #111;
+  margin: 0;
+  position: absolute;
+  text-align: center;
+  top: 45%;
+  -moz-transform: translateX(-0%) translateY(-50%);
+  -webkit-transform: translateX(-0%) translateY(-50%);
+  transform: translateX(0%) translateY(-50%);
+  width: 100vw;
+}
+
+#digital-web-clock {
+  transform: scaleY(2);
+  color: #dc143c;
+  font-size: 10rem;
+  line-height: 0;
+}
+
+@media screen and (min-width: 992px) {
+  #digital-web-clock {
+    font-size: 15rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #digital-web-clock {
+    font-size: 18rem;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  #digital-web-clock {
+    font-size: 20rem;
+  }
+}
